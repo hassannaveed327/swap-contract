@@ -1,0 +1,604 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\interfaces\\IERC20.sol": {
+      "lastModificationDate": 1726608606195,
+      "contentHash": "6e88730b07a7ad1dfa28f3250a910fba",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\ShunaRouter.sol": {
+      "lastModificationDate": 1726671804933,
+      "contentHash": "e3f8e81cf9187490d6c96c2d7ab470b2",
+      "sourceName": "contracts/ShunaRouter.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IShunaInuFactory.sol",
+        "./libraries/TransferHelper.sol",
+        "./libraries/ShunaInuLibrary.sol",
+        "./libraries/SafeMath.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IWETH.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "ShunaRouter"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\libraries\\ShunaInuLibrary.sol": {
+      "lastModificationDate": 1726606489030,
+      "contentHash": "961186c47f40af507f39500c21fa363d",
+      "sourceName": "contracts/libraries/ShunaInuLibrary.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IShunaInuPair.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "ShunaInuLibrary"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\libraries\\TransferHelper.sol": {
+      "lastModificationDate": 1726606099156,
+      "contentHash": "6b304f27b281b2f76b15c293f31ecd46",
+      "sourceName": "contracts/libraries/TransferHelper.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "TransferHelper"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\interfaces\\IShunaInuFactory.sol": {
+      "lastModificationDate": 1726608617037,
+      "contentHash": "46972788d627a5e02121b7112658855c",
+      "sourceName": "contracts/interfaces/IShunaInuFactory.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IShunaInuFactory"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\interfaces\\IWETH.sol": {
+      "lastModificationDate": 1726606099129,
+      "contentHash": "2b0ff40c4f3dfa5b80c5c64e3b1fc5a8",
+      "sourceName": "contracts/interfaces/IWETH.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\libraries\\SafeMath.sol": {
+      "lastModificationDate": 1726606099149,
+      "contentHash": "21018f103e16030a10e120e9dd1d0b75",
+      "sourceName": "contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\interfaces\\IShunaInuPair.sol": {
+      "lastModificationDate": 1726606469706,
+      "contentHash": "3a8ee6eedd3a3ea8fcea08c5b42b4b85",
+      "sourceName": "contracts/interfaces/IShunaInuPair.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.27"
+      ],
+      "artifacts": [
+        "IShunaInuPair"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\Lock.sol": {
+      "lastModificationDate": 1726570702131,
+      "contentHash": "dacf0d5cb5b45dc83086de5bc1c26c2c",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "Lock"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\ShunaInuERC20.sol": {
+      "lastModificationDate": 1726642767470,
+      "contentHash": "4d4b507d38969d1999c89b083f2f1740",
+      "sourceName": "contracts/ShunaInuERC20.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IShunaInuERC20.sol",
+        "./libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "ShunaInuERC20"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\interfaces\\IShunaInuERC20.sol": {
+      "lastModificationDate": 1726642719640,
+      "contentHash": "7d466b3a3e5c57a0f1ec518b9948db3b",
+      "sourceName": "contracts/interfaces/IShunaInuERC20.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "IShunaInuERC20"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\ShunaInuPair.sol": {
+      "lastModificationDate": 1726642790175,
+      "contentHash": "aeaf3ec7d1032ba7ab4e3df50e3b6391",
+      "sourceName": "contracts/ShunaInuPair.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ShunaInuERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IShunaInuFactory.sol",
+        "./interfaces/IShunaInuCallee.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "ShunaInuPair"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\libraries\\UQ112x112.sol": {
+      "lastModificationDate": 1726641902230,
+      "contentHash": "15d0630650c6dea57753f3604f49928e",
+      "sourceName": "contracts/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\interfaces\\IShunaInuCallee.sol": {
+      "lastModificationDate": 1726642621522,
+      "contentHash": "6dc1d011ad88ea6e9d5f04182fabe39f",
+      "sourceName": "contracts/interfaces/IShunaInuCallee.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "IShunaInuCallee"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\libraries\\Math.sol": {
+      "lastModificationDate": 1726641947313,
+      "contentHash": "4eed06d141001e112844ba714208cfe4",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "C:\\Users\\Hassan_Naveed\\Richard\\swap-sol\\contracts\\ShunaInuFactory.sol": {
+      "lastModificationDate": 1726642799328,
+      "contentHash": "6fb12d5a8513ef39dfd0c050695dc796",
+      "sourceName": "contracts/ShunaInuFactory.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IShunaInuPair.sol",
+        "./ShunaInuPair.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "ShunaInuFactory"
+      ]
+    }
+  }
+}
